@@ -6,7 +6,7 @@ class Setlx < Formula
   sha256 "c3a487777085ea18b4db6479c7613ff4a7e547edfc6896d65b6cb3cc3bcdf4bd"
 
   depends_on :java => "1.7+"
-  depends_on :rlwrap => :recommended
+  depends_on "rlwrap" => :recommended
   bottle :unneeded
 
   def install
