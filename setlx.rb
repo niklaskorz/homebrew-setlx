@@ -1,9 +1,9 @@
 class Setlx < Formula
   desc "SetlX is an interpreter for the high level programming-language SetlX (set language extended)."
-  homepage "https://randoom.org/Software/SetlX"
-  url "http://download.randoom.org/setlX/pc/setlX_v2-7-0.binary_only.zip"
-  version "2.7.0"
-  sha256 "876c8aad46fc8c08e71d55fc0e6b9a46d753f16ea9655d1beae76d170b1f2de3"
+  homepage "https://randoom.org/Software/SetlX/"
+  url "https://download.randoom.org/setlX/pc/setlX_v2-7-1.binary_only.zip"
+  version "2.7.1"
+  sha256 "fd28c0e718fcabfeff6a85d60937d91a2fd690be5bc5b21014ae2b6dd688b3d5"
 
   depends_on :java => "1.7+"
   depends_on "rlwrap" => :recommended
