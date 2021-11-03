@@ -7,7 +7,6 @@ class Setlx < Formula
 
   depends_on "openjdk"
   depends_on "rlwrap"
-  bottle :unneeded
 
   def install
     system "sed", "-i", ".original", "s,setlXJarDirectory=\".\",setlXJarDirectory=\"#{prefix}/\",g", "./setlX"
